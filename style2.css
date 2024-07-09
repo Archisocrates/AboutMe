@@ -1,0 +1,184 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    font-weight: bold;  
+}   
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sec1 {
+    height: 100vh;
+    background-image: url(mount-fuji-volcano-japan-river-reflection-boat-couple-5k-2880x1800-5440.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    height: 100vh;
+}
+
+.navbar {
+    width: 90%;
+    margin-inline: auto;
+}
+
+nav.black ul {
+    background: 000;
+}
+
+.container {
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+}
+
+.menu { 
+    display: flex;
+    gap: 2.5rem;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu>li>a {
+    align-content: center;
+    color: black;
+    text-decoration: none;
+    color: #04182e;
+    font-size: 16px;
+    justify-content: left;
+    font-family: 'poppins';
+}
+
+.menu>li>a:hover {
+    color: #eab676;
+    transition: all 300ms ease-in-out;
+    border-bottom: 1px solid #eab676;
+    font-size: 20px;
+}
+
+.logo>img {
+    width: 40px;
+    display: flex;
+    margin-left: 45px;
+    margin-top: 5px;
+    position: relative;
+    float: left;
+}
+
+.comm {
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #0d325a;
+    color: white;
+    transition: all 300ms ease;
+    margin-left: 350px;
+}
+
+.comm:hover {
+    color: 
+    #eab676;
+}
+
+.char>img {
+    display: flex;
+    width: 618px;
+    position: relative;
+    left: 380px;
+}
+
+.mainbio {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.nama {
+    position: relative;
+    bottom: 150px;
+}
+
+.ibnu {
+    font-size: 50px;
+    color: #0d325a;
+    font-family: "Baskervville SC";
+}
+
+.ibnudesc {
+    font-size: 17px;
+}
+
+.ttl {
+    position: relative;
+    left: 730px;
+    bottom: 140px;
+    justify-items: right;
+    --animate-delay: 1.2s;
+}
+
+.jakarta {
+    font-size: 45px;
+    font-family: "Baskervville SC";
+    color:#0d325a;
+}
+
+.jakartadesc {
+    font-size: 16px;
+}
+
+.music {
+    position: relative;
+    left: 70px;
+    bottom: 80px;
+    --animate-delay: 1.4s;
+}
+
+.phonk {
+    font-size: 45px;
+    font-family: "Baskervville SC";
+    color:#0d325a;
+    justify-content: right;
+    justify-items: right;
+    position: relative;
+    left: 130px;
+}
+
+.phonkdesc {
+    font-size: 17px;
+}
+
+.skill {
+    position: relative;
+    left: 710px;
+    bottom: 40px;
+    --animate-delay: 1.6s;
+}
+
+.talent {
+    font-size: 45px;
+    font-family: "Baskervville SC";
+    color:#0d325a;
+}
+
+.talentdesc {
+    font-size: 15px;
+}
+
+div.box {
+    height: 10vh;
+    background-color: #04182e;
+}
+
+.box a {
+    justify-content: center;
+    align-items: center;
+}
+
